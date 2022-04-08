@@ -1,0 +1,7 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.printWidth": 110,
+  "prettier.semi": false,
+  "editor.formatOnSave": true
+}
