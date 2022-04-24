@@ -1,7 +1,6 @@
-import React from "react"
 import { RenderLeafProps } from "slate-react"
 
-export const Leaf = ({ attributes, children, leaf }: RenderLeafProps) => {
+export const RenderedSlateLeaf = ({ attributes, children, leaf }: RenderLeafProps) => {
   var classnames = []
   if (leaf.qs) classnames.push("character__qs")
 

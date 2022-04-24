@@ -1,8 +1,7 @@
-import React from "react"
 import { RenderElementProps } from "slate-react"
 import { Element as SlateElement } from "slate"
 
-export const Element = (renderElementProps: RenderElementProps) => {
+export const RenderedSlateElement = (renderElementProps: RenderElementProps) => {
   const Renderer = rendererMap[renderElementProps.element.type] ?? UnknownElement
   return Renderer(renderElementProps)
 }
