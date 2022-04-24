@@ -6,9 +6,25 @@ import { createEditor, Descendant, Element } from "slate"
 import sampleAghast from "../ult_psa_aghast.json"
 import { RenderedSlateLeaf } from "../components/RenderedSlateLeaf"
 import { RenderedSlateElement } from "../components/RenderedSlateElement"
+import { diffJson } from "diff"
 
 export default function Home() {
-  const [value, setValue] = useState<Descendant[]>(sampleAghast)
+  const [output, setOutput] = useState<Descendant[]>()
+
+  const aghastDiff = useMemo(() => {
+    if (!output || !sampleAghast) return <></>
+    const diffs = diffJson(sampleAghast, output, { undefinedReplacement: "undefined" })
+    if (!diffs) return <></>
+    const spans = diffs.map((change, i) => (
+      <span
+        key={i}
+        className={change.added ? "text-green-500" : change.removed ? "text-red-500" : "text-grey-500"}
+      >
+        {change.value}
+      </span>
+    ))
+    return <pre className="text-xs">{spans}</pre>
+  }, [output])
 
   const renderElement = useCallback((props: RenderElementProps) => <RenderedSlateElement {...props} />, [])
   const renderLeaf = useCallback((props: RenderLeafProps) => <RenderedSlateLeaf {...props} />, [])
@@ -29,7 +45,7 @@ export default function Home() {
       </Head>
 
       <div className="grid grid-cols-2">
-        <Slate editor={editor} value={value} onChange={(value) => setValue(value)}>
+        <Slate editor={editor} value={sampleAghast} onChange={setOutput}>
           <Editable
             className="editable"
             renderElement={renderElement}
@@ -39,9 +55,7 @@ export default function Home() {
           />
         </Slate>
 
-        <output>
-          <pre className="text-xs">{JSON.stringify(sampleAghast, null, 2)}</pre>
-        </output>
+        <output>{aghastDiff}</output>
       </div>
     </div>
   )

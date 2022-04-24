@@ -11,6 +11,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "diff": "5.0.0",
     "next": "12.1.5",
     "react": "18.0.0",
     "react-dom": "18.0.0",
@@ -25,6 +26,7 @@
     "@storybook/addon-links": "6.4.22",
     "@storybook/react": "6.4.22",
     "@storybook/testing-library": "0.0.11",
+    "@types/diff": "5.0.2",
     "@types/node": "17.0.25",
     "@types/react": "18.0.6",
     "autoprefixer": "10.4.4",
