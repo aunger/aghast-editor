@@ -6,7 +6,7 @@ export const RenderedSlateElement = (renderElementProps: RenderElementProps) => 
   return Renderer(renderElementProps)
 }
 
-const rendererMap: Record<string, (RenderElementProps) => JSX.Element> = {
+const rendererMap: Record<string, (p: RenderElementProps) => JSX.Element> = {
   block: AghastBlock,
   mark: AghastMark,
   inlineGraft: InlineGraft,
@@ -55,16 +55,18 @@ function BlockGraft({ element, attributes, children }: RenderElementProps) {
   const className = ClassNameFromElementAttributes(element)
   return (
     <aside className={className} {...attributes}>
-      <data value={element.seqId}>{children}</data>
+      <data value={element?.seqId}>{children}</data>
     </aside>
   )
 }
 
 function HtmlTagForBlock({ scope }: SlateElement) {
-  const testForTitle = /^[^/]+\/(qa|[dms]\d?)$/i
-  const testForQuote = /^[^/]+\/q[rc\d]?$/i
-  if (testForTitle.test(scope)) return "div"
-  if (testForQuote.test(scope)) return "blockquote"
+  if (scope) {
+    const testForTitle = /^[^/]+\/(qa|[dms]\d?)$/i
+    const testForQuote = /^[^/]+\/q[rc\d]?$/i
+    if (testForTitle.test(scope)) return "div"
+    if (testForQuote.test(scope)) return "blockquote"
+  }
   return "p"
 }
 
@@ -75,8 +77,16 @@ function HtmlTagForMark(element: SlateElement): "span" {
 }
 
 function ClassNameFromElementAttributes(element: SlateElement) {
-  if (element.type && element.subType) return element.type + "__" + element.subType
-  const splitScope = element.scope?.split("/")
-  if (element.type == "mark") return splitScope[0]
-  return splitScope.join("__")
+  if (!element) {
+    return ""
+  }
+  if (element.type && element.subType) {
+    return element.type + "__" + element.subType
+  }
+  if (element.scope) {
+    const splitScope = element.scope.split("/")
+    if (element.type == "mark") return splitScope[0]
+    return splitScope.join("__")
+  }
+  return element.type
 }

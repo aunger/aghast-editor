@@ -9,7 +9,7 @@ declare module "slate" {
   }
 }
 
-type HasMarkers = { [key: string]: boolean | string }
+type HasMarkers = { [key: string]: boolean | string | undefined }
 
 type AghastElement = {
   type: string
