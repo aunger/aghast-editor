@@ -1,0 +1,835 @@
+[
+  {
+    "type": "blockGraft",
+    "subType": "title",
+    "seqId": "Y2JjNmU0NDIt",
+    "children": [
+      {
+        "text": ">> Title"
+      }
+    ]
+  },
+  {
+    "type": "blockGraft",
+    "subType": "heading",
+    "seqId": "ZmY1YjQ5ZDUt",
+    "children": [
+      {
+        "text": ">> Heading"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "chapter/1",
+        "children": [
+          {
+            "text": "c 1"
+          }
+        ]
+      },
+      {
+        "type": "mark",
+        "scope": "verses/1",
+        "children": [
+          {
+            "text": "v 1"
+          }
+        ]
+      },
+      {
+        "text": "Blessed is the man who does not walk in the advice of the wicked,"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "or stand in the pathway with sinners,"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "or sit in the assembly of mockers."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/2",
+        "children": [
+          {
+            "text": "v 2"
+          }
+        ]
+      },
+      {
+        "text": "But his delight is in the law of Yahweh,"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "and on his law he meditates day and night."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/3",
+        "children": [
+          {
+            "text": "v 3"
+          }
+        ]
+      },
+      {
+        "text": "He will be like a tree planted by the streams of water"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "that produces its fruit in its season,"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "whose leaves do not wither;"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "whatever he does will prosper."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/4",
+        "children": [
+          {
+            "text": "v 4"
+          }
+        ]
+      },
+      {
+        "text": "The wicked are not so,"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "but are instead like the chaff that the wind drives away."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/5",
+        "children": [
+          {
+            "text": "v 5"
+          }
+        ]
+      },
+      {
+        "text": "So the wicked will not stand in the judgment,"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "nor sinners in the assembly of the righteous."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/6",
+        "children": [
+          {
+            "text": "v 6"
+          }
+        ]
+      },
+      {
+        "text": "For Yahweh approves of the way of the righteous,"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "but the way of the wicked will perish."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "chapter/2",
+        "children": [
+          {
+            "text": "c 2"
+          }
+        ]
+      },
+      {
+        "type": "mark",
+        "scope": "verses/1",
+        "children": [
+          {
+            "text": "v 1"
+          }
+        ]
+      },
+      {
+        "text": "Why are the nations in turmoil,"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "and why do the peoples make plots that will fail?"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/2",
+        "children": [
+          {
+            "text": "v 2"
+          }
+        ]
+      },
+      {
+        "text": "The kings of the earth take their stand together"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "and the rulers conspire together"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "against Yahweh and against his Messiah, saying,"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/3",
+        "children": [
+          {
+            "text": "v 3"
+          }
+        ]
+      },
+      {
+        "text": "“Let us tear off the shackles they put on us"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "and throw off their chains.”"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/4",
+        "children": [
+          {
+            "text": "v 4"
+          }
+        ]
+      },
+      {
+        "text": "He who sits in the heavens will sneer at them;"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "the Lord mocks them."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/5",
+        "children": [
+          {
+            "text": "v 5"
+          }
+        ]
+      },
+      {
+        "text": "Then he will speak to them in his anger"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "and terrify them in his rage, saying,"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/6",
+        "children": [
+          {
+            "text": "v 6"
+          }
+        ]
+      },
+      {
+        "text": "“I myself have anointed my king"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "on Zion, my holy mountain.”"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/7",
+        "children": [
+          {
+            "text": "v 7"
+          }
+        ]
+      },
+      {
+        "text": "I will announce a decree of Yahweh."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "He said to me, “You are my son!"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "This day I have become your father."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/8",
+        "children": [
+          {
+            "text": "v 8"
+          }
+        ]
+      },
+      {
+        "text": "Ask me, and I will give you the nations for your inheritance"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "and the farthermost regions of the earth for your possession."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/9",
+        "children": [
+          {
+            "text": "v 9"
+          }
+        ]
+      },
+      {
+        "text": "You will break them with an iron rod;"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "like a jar of a potter, you will smash them to pieces.”"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/10",
+        "children": [
+          {
+            "text": "v 10"
+          }
+        ]
+      },
+      {
+        "text": "So now, you kings, be warned;"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "be corrected, you rulers of the earth."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/11",
+        "children": [
+          {
+            "text": "v 11"
+          }
+        ]
+      },
+      {
+        "text": "Worship Yahweh in fear"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "and rejoice with trembling."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/12",
+        "children": [
+          {
+            "text": "v 12"
+          }
+        ]
+      },
+      {
+        "text": "Kiss the son or he will be angry with you,"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q2",
+    "children": [
+      {
+        "text": "and you will die in the way when his anger burns for just a moment."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "How blessed are all those who seek refuge in him."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/d",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "chapter/3",
+        "children": [
+          {
+            "text": "c 3"
+          }
+        ]
+      },
+      {
+        "text": "A psalm of David, when he fled from Absalom his son."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/1",
+        "children": [
+          {
+            "text": "v 1"
+          }
+        ]
+      },
+      {
+        "text": "Yahweh, how many are my enemies!"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "Many have risen against me."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/2",
+        "children": [
+          {
+            "text": "v 2"
+          }
+        ]
+      },
+      {
+        "text": "Many say about me,"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "“There is no help for him from God.” "
+      },
+      {
+        "text": "Selah",
+        "qs": true
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/3",
+        "children": [
+          {
+            "text": "v 3"
+          }
+        ]
+      },
+      {
+        "text": "But you, Yahweh, are a shield around me,"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "my glory, and the one who lifts up my head."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/4",
+        "children": [
+          {
+            "text": "v 4"
+          }
+        ]
+      },
+      {
+        "text": "I lift up my voice to Yahweh,"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "and he answers me from his holy hill. "
+      },
+      {
+        "text": "Selah",
+        "qs": true
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/5",
+        "children": [
+          {
+            "text": "v 5"
+          }
+        ]
+      },
+      {
+        "text": "I lay down and slept;"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "I awoke, for Yahweh protected me."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/6",
+        "children": [
+          {
+            "text": "v 6"
+          }
+        ]
+      },
+      {
+        "text": "I will not be afraid of the multitudes of people"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "who have set themselves against me on every side."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/7",
+        "children": [
+          {
+            "text": "v 7"
+          }
+        ]
+      },
+      {
+        "text": "Rise up, Yahweh! Save me, my God!"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "For you will hit all my enemies on the jaw;"
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "you will break the teeth of the wicked."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "type": "mark",
+        "scope": "verses/8",
+        "children": [
+          {
+            "text": "v 8"
+          }
+        ]
+      },
+      {
+        "text": "Salvation comes from Yahweh."
+      }
+    ]
+  },
+  {
+    "type": "block",
+    "scope": "blockTag/q",
+    "children": [
+      {
+        "text": "May your blessings be on your people. "
+      },
+      {
+        "text": "Selah",
+        "qs": true
+      }
+    ]
+  }
+]
